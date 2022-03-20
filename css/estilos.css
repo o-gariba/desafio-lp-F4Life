@@ -7,5 +7,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    /* estou usando roboto condensed? */
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+/* Pegar estilo do formulario do curso JS NA WEB (pasta nomeada: js-na-web-validando-formularios) */

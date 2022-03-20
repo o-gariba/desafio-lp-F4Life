@@ -37,11 +37,16 @@
             <form action="">
                 <fieldset>
                     <legend>E-mail</legend>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" placeholder="usuario@dominio.com" data-tipo="email" required>
+                    <!-- 
+                        Entendendo o REGEX (user)@(domain).(com)
+
+                     -->
+                    <!-- <span class="input-mensagem-erro">E-mail inválido, seu email deve</span> -->
                 </fieldset>
                 <fieldset>
                     <legend>Mensagem</legend>
-                    <textarea name="mensagem" id="mensagem" rows="10" class="campo-mensagem"></textarea>
+                    <textarea name="mensagem" id="mensagem" rows="10" class="campo-mensagem" required></textarea>
                 </fieldset>
                 <button class="fale-conosco-botao">Enviar</button>
             </form>
@@ -58,7 +63,7 @@
         </ul>
     </footer>
     
-
+    <script src="validacao.js"></script>
 </body>
 
 </html>
