@@ -25,7 +25,7 @@
 >>- Iniciar estilos desktop
 >>- Encerrar estilo desktop
 
-#### Dia 1 (19/03/2022)
+#### Dia 1 (sábado, 19/03/2022)
 >Consegui colocar todo o HTML básico na página, do cabeçalho até o rodapé, incluindo inclusive algumas imagens representando o que será mantido até o final.  
 >Consegui fazer uma validação com retorno no console do e-mail, seguindo todos os critérios mencionados. Preciso fazer com que isso exiba uma mensagem dentro do site.  
 > A validação do campo de texto está completa, mas quem devolve a mensagem de campo vazio é o proprio navegador, não a página (verificar se isso pode ficar assim).  
