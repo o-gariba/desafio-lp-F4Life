@@ -3,6 +3,7 @@
 ### Diário do desenvolvimento
 >Fiz anotações e resumos do que era REQUERIDO no projeto e quais as avaliações que seriam feitas  
 >Logo depois estipulei um cronograma ideal de como eu imaginei que poderia ocorrer o desenvolvimento do projeto. Ficou assim:  
+>  
 >19/03
 >>- Criação dos elementos básicos HTML
 >>>- header com:
