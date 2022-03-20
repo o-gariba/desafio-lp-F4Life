@@ -1,0 +1,11 @@
+:root {
+    --logo-azul-escuro: #132235;
+    --logo-verde: #6cd9d2;
+    --logo-cinza-texto: #d9dbde;
+    --logo-branco: white;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}

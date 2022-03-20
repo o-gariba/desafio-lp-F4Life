@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F4LIFE - Sua moradia certa!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    
+    <header>
+        <img src="imgs/logo-recortado.png" alt="logo F4LIFE com destaque no texto" class="logo-rodape">
+        <nav class="menu-cabecalho">
+            <ul class="menu-cabecalho-elmtos">
+                <li class="menu-cabecalho-elmto"><a href="#quem-somos" class="menu-cabecalho-elmto-conteudo">Quem somos</a></li>
+                <li class="menu-cabecalho-elmto"><a href="#fale-conosco" class="menu-cabecalho-elmto-conteudo">Fale Conosco</a></li>
+        </nav>
+    </header>
+
+<!-- manter ou não a id + classe? Remover classe? -->
+    <section class="quem-somos" id="quem-somos">
+        <h1 class="quem-somos-titulo">Quem somos</h1>
+        <p class="quem-somos-conteudo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quam non dignissimos est dolore deserunt corporis, expedita eligendi tenetur blanditiis amet. Dicta mollitia quas hic aspernatur sint voluptatum debitis beatae.</p>
+    </section>
+
+    <section class="fale-conosco" id="fale-conosco">
+        <h1 class="fale-conosco">Fale Conosco</h1>
+        <div class="fale-conosco-form">
+            <form action="">
+                <fieldset>
+                    <legend>E-mail</legend>
+                    <input type="email" name="email" id="email">
+                </fieldset>
+                <fieldset>
+                    <legend>Mensagem</legend>
+                    <textarea name="mensagem" id="mensagem" rows="10" class="campo-mensagem"></textarea>
+                </fieldset>
+                <button class="fale-conosco-botao">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Usar ícones animados? referencia: https://www.javatpoint.com/how-to-add-social-media-icons-in-html -->
+    <footer>
+        <ul class="rodape-logos">
+            <li class="rodape-logo"><a target = '_blank' href="#" class="rodape-logo-link"><img src="imgs/twitter-rodape.png" alt="ícone do twitter" class="rodape-logo-img"></a></li>
+            <li class="rodape-logo"><a target = '_blank' href="#" class="rodape-logo-link"><img src="imgs/linkedin-rodape.png" alt="ícone do linkedin" class="rodape-logo-img"></a></li>
+            <li class="rodape-logo"><a target = '_blank' href="#" class="rodape-logo-link"><img src="imgs/face-rodape.png" alt="ícone do facebook" class="rodape-logo-img"></a></li>
+        </ul>
+    </footer>
+    
+
+</body>
+
+</html>
