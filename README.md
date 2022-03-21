@@ -31,4 +31,11 @@
   
 >Consegui fazer uma validação com retorno no console do e-mail, seguindo todos os critérios mencionados. Preciso fazer com que isso exiba uma mensagem dentro do site.  
   
-> A validação do campo de texto está completa, mas quem devolve a mensagem de campo vazio é o proprio navegador, não a página (verificar se isso pode ficar assim).  
+>A validação do campo de texto está completa, mas quem devolve a mensagem de campo vazio é o proprio navegador, não a página (verificar se isso pode ficar assim).  
+
+#### Dia 2 (domingo, 20/03/2022)
+>Aprimorei a verificação do e-mail usando javascript, agora o próprio navegador exibe sempre as mensagens de erro quando não é cumprido o RegEx.  
+
+>Consegui terminar tanto o design da versão mobile quanto da versão desktop no figma, com imagens e ilustrações 3D, que indicaram no grupo de mentorias, e também escrevi todo o conteúdo em texto que será necessário. No final das contas achei que ficou um design bem bonito.  
+
+>Isso acabou me tomando o dia todo e consequentemente não consegui cumprir o cronograma pretendido para o dia, vou deixar para amanhã o início da estilizaçao das primeiras sessões da versão mobile.
