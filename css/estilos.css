@@ -109,6 +109,88 @@ header {
     margin: 2rem 0 2rem 4rem;
 }
 
+/* MORADIAS */
+
+.moradias {
+    background-color: var(--logo-azul-escuro);
+    padding: 1rem .5rem;
+}
+
+.moradias-titulo{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+
+    color: var(--logo-cinza-texto);
+    word-spacing: 2rem;
+    line-height: 3rem;
+}
+
+.moradias-opcoes {
+}
+
+.moradias-opcao {
+    border: 2px solid var(--logo-verde);
+
+    margin-bottom: 2.5rem;
+    display: flex;
+}
+
+.moradias-opcao-sozinhe{
+    color: white;
+    
+    font-size: 2rem;
+    text-transform: uppercase;
+
+    display: block;
+    /* position: absolute; */
+    margin-left: 1.5rem;
+    margin-top: 2.3rem;
+}
+
+.moradias-hashtag-sozinhe {
+    color: var(--logo-cinza-texto);
+
+    display: block;
+    position: absolute;
+    margin-left: 9rem;
+    margin-top: 4.5rem;
+}
+
+.moradias-opcao-grupo{
+    color: white;
+
+    font-size: 2rem;
+    text-transform: uppercase;
+
+    position: absolute;
+    margin-left: .8rem;
+    margin-top: 4rem;
+}
+
+.moradias-hashtag-grupo {
+    color: var(--logo-cinza-texto);
+
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 6.2rem;
+}
+
+.moradias-avatar-sozinhe {
+    display: block;
+    width: 90px;
+
+    padding: 1rem .5rem;
+}
+
+.moradias-avatar-grupo {
+    width: 110px;
+    display: block;
+
+    padding: 1rem .5rem;
+    margin-left: 12rem;
+}
+
 /* Pegar estilo do formulario do curso JS NA WEB (pasta nomeada: js-na-web-validando-formularios) */
 
 /* Referencia sobre como aproveitar a verificação dos dados para gerar efeitos legais: https://www.youtube.com/watch?v=Eu1KRvw4tKg&list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD&index=16 */
