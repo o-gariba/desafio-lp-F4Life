@@ -5,6 +5,10 @@
     --logo-branco: white;
 }
 
+html {
+    /* overflow-x: hidden; */
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     /* estou usando roboto condensed? */
@@ -104,9 +108,9 @@ header {
     width: 70%;
 
     background-color: var(--logo-verde);
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
 
-    margin: 2rem 0 2rem 4rem;
+    margin: 2rem 0 2rem 3.5rem;
 }
 
 /* MORADIAS */
