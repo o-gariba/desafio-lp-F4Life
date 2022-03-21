@@ -1,6 +1,6 @@
 const inputs = document.querySelectorAll('input');
 
-const padraoEmail = /^([a-zA-Z\d\.]{1,32})@([a-zA-Z\d]{1,16})\.([a-z]{2,5})$/;
+const padraoEmail = /^([a-zA-Z\d\.]{1,32})@([a-z\d]{1,16})$/;
 //  Explicando o RegEx:
 //  a-zA-Z -> O user pode conter todas as letras do alfabeto, maiusculas e minusculas
 // \d -> permite numerais (digits)
@@ -13,7 +13,7 @@ function validacao(campo, regEx) {
 
 inputs.forEach(input => {
     input.addEventListener('keyup', evento => {
-        console.log(evento.target.attributes.name.value);
+        // console.log(evento.target.attributes.name.value);
         validacao(evento.target, padraoEmail);
     })
 })
