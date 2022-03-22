@@ -36,6 +36,7 @@ botaoEnvio.addEventListener('click', (e) => {
         if (mensagemEnviada) {
             console.log('deu certo');
             olaUser(emailCadastrado);
+            e.preventDefault();
         } else {
             alert('Erro no envio: Insira uma mensagem');
             e.preventDefault();
