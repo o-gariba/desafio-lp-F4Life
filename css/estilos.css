@@ -5,6 +5,10 @@
     --logo-branco: white;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     /* estou usando roboto condensed? */
@@ -242,6 +246,9 @@ header{
     font-size: 1.8rem;
     text-transform: uppercase;
 
+    display: flex;
+    justify-content: left;
+
     position: absolute;
     margin-left: .2rem;
     margin-top: 4rem;
@@ -266,7 +273,7 @@ header{
 
 .moradias-avatar-grupo {
     width: 110px;
-    display: block;
+    /* display: block; */
 
     padding: 1rem .5rem;
     margin-left: 9.8rem;
@@ -275,7 +282,40 @@ header{
 @media screen and (min-width: 1000px) {
    
     .moradias {
-        padding: 1rem 5.5rem ;
+        padding: 1rem 5.5rem;
+    }
+
+    .moradias-titulo {
+        word-spacing: 0;
+    }
+
+    .moradias-opcao {
+        border: 2px solid var(--logo-verde);
+    }
+
+    .moradias-opcao-sozinhe {
+        padding-right: 2rem;
+    }
+
+    .moradias-opcao-grupo {
+        padding-left: 1rem;
+    }
+
+    .moradias-opcoes {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-evenly;
+        /* width: 30%; */
+    }
+
+    .moradias-avatar-grupo {
+        width: 95px;
+        margin-left: 12rem;
+    }
+
+    .moradias-hashtag-grupo {
+        padding-left: 2rem;
     }
 }
 
@@ -354,6 +394,16 @@ header{
 
 .vantagens-item-titulo-contas {
     margin-left: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .vantagens-item-conteudo{
+        display: block;
+
+        padding-top: 3rem;
+        padding-left: 7rem;
+    }
 }
 
 /* FALE CONOSCO */
