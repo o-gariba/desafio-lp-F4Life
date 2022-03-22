@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F4Life Sua moradia certa!</title>
+    <title>F4Life - Sua moradia certa!</title>
+
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -99,16 +101,17 @@
     <section class="fale-conosco" id="fale-conosco">
         <h1 class="fale-conosco-titulo">Queremos te ouvir</h1>
         <div class="fale-conosco-form">
-            <form action="">
+            <form action="/" method="POST" id="form">
                 <fieldset>
                     <legend>E-mail</legend>
-                    <input type="email" name="email" id="email" placeholder="usuario@dominio.com" data-tipo="email" required>
+                    <input type="email" name="email" id="email" placeholder="usuario@dominio.com" data-tipo="email" >
                 </fieldset>
                 <fieldset>
                     <legend>Mensagem</legend>
-                    <textarea name="mensagem" id="mensagem" rows="10" placeholder="Insira sua mensagem aqui..." required></textarea>
+                    <textarea name="mensagem" id="mensagem" rows="8" placeholder="Insira sua mensagem aqui..." ></textarea>
                 </fieldset>
-                <button class="fale-conosco-botao">Enviar</button>
+                <div id="error"></div>
+                <button class="fale-conosco-botao" id="submit" type="submit">Enviar</button>
             </form>
         </div>
     </section>
@@ -124,7 +127,8 @@
         <p class="copyright">Copyright © 2020 F4Life All rights reserved.</p>
     </footer>
     
-    <script src="validacao.js"></script>
+    <!-- <script src="validacao.js"></script> -->
+    <script src="validacao2.js"></script>
 </body>
 
 </html>

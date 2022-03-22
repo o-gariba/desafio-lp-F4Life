@@ -69,6 +69,8 @@ header{
 
     .menu-cabecalho-elmto {
         font-weight: 800;
+
+        padding-left: 2rem;
     }
 
 }
@@ -114,18 +116,22 @@ header{
 
     .destaque-img-desktop {
         display: flex;
-        width: 100vw;
+        width: 100%;
     }
 
     .destaque-titulo {
         position: absolute;
         margin-top: 4rem;
         
-        padding: 1rem 0 1rem 4rem;
+        padding: .5rem 0 1rem 6rem;
 
-        width: 500px;
-        font-weight: 600;
+        width: 800px;
+        height: 230px;
+        font-weight: 500;
+        font-size: 3.5rem;
+        line-height: 4rem;
         letter-spacing: 2px;
+        text-align: center;
 
         background-color: #ffffff;
         opacity: .90;
@@ -172,23 +178,31 @@ header{
 
 @media screen and (min-width: 1000px) {
 
+    .quem-somos-titulo{
+        font-size: 3.5rem;
+        font-weight: 500;
+        padding-bottom: 4rem;
+    }
+
     .quem-somos-conteudo {
-        width: 30%;
+        width: 31%;
 
-        padding-left: 10rem;
+        padding-left: 15rem;
 
-        line-height: 1.8rem;
+        line-height: 3rem;
 
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
 
     .quem-somos-conteudo-direita {
-        font-size: 1.4rem;
+        font-size: 2rem;
 
-        margin: 0 0 2rem 40rem;
-        padding-right: 5.5rem;
+        margin: 0 0 2rem 49rem;
+        padding: 1rem 12rem 1rem 2rem;
 
         width: 40%;
+
+        line-height: 2.5rem;
     }
     
 }
@@ -283,19 +297,38 @@ header{
     }
 
     .moradias-titulo {
+        font-size: 3.5rem;
+        font-weight: 500;
         word-spacing: 0;
+
+        padding-bottom: 5rem;
     }
 
     .moradias-opcao {
-        border: 2px solid var(--logo-verde);
+        border: 3px solid var(--logo-verde);
     }
 
     .moradias-opcao-sozinhe {
         padding-right: 2rem;
+        padding-top: 3rem;
+
+        font-size: 2.6rem;
+    }
+
+    .moradias-hashtag-sozinhe {
+        margin-left: 13rem;
+        margin-top: 8.2rem;
+    }
+
+    .moradias-avatar-sozinhe{
+        width: 160px;
     }
 
     .moradias-opcao-grupo {
+        padding-top: 1.5rem;
         padding-left: 1rem;
+
+        font-size: 2.6rem;
     }
 
     .moradias-opcoes {
@@ -307,12 +340,16 @@ header{
     }
 
     .moradias-avatar-grupo {
-        width: 95px;
-        margin-left: 12rem;
+        width: 160px;
+        margin-left: 15rem;
+        padding: 1.2rem 1rem;
     }
 
     .moradias-hashtag-grupo {
-        padding-left: 2rem;
+        padding-left: 3rem;
+        padding-top: 2.2rem;
+
+        font-size: 1rem;
     }
 }
 
@@ -509,6 +546,12 @@ fieldset {
     font-size: 1.2rem;
 
     margin-left: 3rem;
+}
+
+#error {
+    padding-bottom: 1rem;
+
+    font-weight: 800;
 }
 
 @media screen and (min-width: 1000px) {
