@@ -6,7 +6,7 @@ const padraoEmail = /^([a-zA-Z0-9\.]{1,32})@([a-z0-9]{1,16})\.(com)$/;
 // \d -> permite numerais (digits)
 // \. -> permite pontos finais
 
-function validacao(campo, regEx) {
+function validacaoEmail(campo, regEx) {
     if(regEx.test(campo.value)) { 
         campo.className = 'input-valido';
         return true;
@@ -18,13 +18,27 @@ function validacao(campo, regEx) {
     }
 }
 
+function olaUser(email) {
+    const emailDividido = email.value.split("@");
+    const user = emailDividido[0];
+
+    return alert(`Obrigado pelo contato, ${user}!`);
+}
+
 botaoEnvio.addEventListener('click', (e) => {
     const emailCadastrado = document.querySelector('input');
+    const mensagemEnviada = document.querySelector('textarea').value.length;
 
-    if (!(validacao(document.querySelector('input'), padraoEmail))) {
-        alert('e-mail inválido! Antes do @ aceitamos até 32 caracteres, incluindo numerais e ponto final. Depois do @ aceitamos até 16 caracteres minusculos e numerais. O final do seu e-mail deve terminar com ".com"');
+    if (!(validacaoEmail(emailCadastrado, padraoEmail))) {
+        alert('Erro no envio: Endereço de mail inválido');
         e.preventDefault();
     } else {
-        console.log('deu certo');
+        if (mensagemEnviada) {
+            console.log('deu certo');
+            olaUser(emailCadastrado);
+        } else {
+            alert('Erro no envio: Insira uma mensagem');
+            e.preventDefault();
+        }
     }
 })
