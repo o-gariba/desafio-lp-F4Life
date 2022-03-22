@@ -322,6 +322,21 @@ fieldset {
 
 /* REDES SOCIAIS */
 
+footer {
+    padding: 1rem 0;
+
+    background-color: var(--logo-azul-escuro);
+}
+
+.rodape-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.rodape-logo-img {
+}
 
 /* Pegar estilo do formulario do curso JS NA WEB (pasta nomeada: js-na-web-validando-formularios) */
 
