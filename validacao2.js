@@ -1,19 +1,19 @@
-const botaoEnvio = document.querySelector('button');
+// const botaoEnvio = document.querySelector('button');
 const form = document.getElementById('form');
 const elementoError = document.getElementById('error');
 
 const padraoEmail = /^([a-zA-Z0-9\.]{1,32})@([a-z0-9]{1,16})\.(com)$/;
+// 
 
 function validacaoEmail(campo, regEx) {
     if(regEx.test(campo.value)) { 
         return true;
-    } else {
-        return false;
-    }
+    } else return false;
 }
 
 
 form.addEventListener('submit', (e) => {
+
     let mensagem = [];
     const emailCadastrado = document.querySelector('input');
     const tamanhoMensagem = document.querySelector('textarea').value.length;

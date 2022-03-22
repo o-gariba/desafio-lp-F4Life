@@ -197,10 +197,10 @@ header{
     .quem-somos-conteudo-direita {
         font-size: 2rem;
 
-        margin: 0 0 2rem 49rem;
-        padding: 1rem 12rem 1rem 2rem;
+        margin: 0 0 2rem 48rem;
+        padding: 1rem 18.5rem 1rem 2rem;
 
-        width: 40%;
+        width: 35%;
 
         line-height: 2.5rem;
     }
@@ -386,7 +386,7 @@ header{
     margin-top: -45px;
 }
 
-.vantagens-item-img-calendario {
+.vantagens-item-img-contas {
     position: absolute;
 
     width: 155px;
@@ -406,7 +406,7 @@ header{
     border-radius: 10px 0 0 10px;
 }
 
-.vantagens-item-calendario {
+.vantagens-item-contas {
     background-color: var(--logo-verde);
     border-radius: 10px;
 
@@ -432,10 +432,17 @@ header{
 
 @media screen and (min-width: 1000px) {
 
+    .vantagens-titulo {
+        font-size: 3.5rem;
+        font-weight: 500;
+
+        padding-bottom: 3rem;
+    }
+
     .vantagens-item {
         height: 150px;
-        margin-left: 45%;
-        margin-right: 7rem;
+        margin-left: 44%;
+        margin-right: 20rem;
 
         border-radius: 10px;
     }
@@ -456,7 +463,6 @@ header{
         position: inherit;
 
         padding-top: 1.5rem;
-        /* padding-left: 1rem; */
         margin-left: 2rem;
 
         font-size: 1.3rem;
@@ -464,19 +470,18 @@ header{
 
     .vantagens-item-img-celular {
         width: 200px;
-        margin-left: 25rem;
     }
     
     .vantagens-item-img {
         width: 220px;
-        margin-left: 25rem;
+        margin-left: 28rem;
     }
 
-    .vantagens-item-calendario {
+    .vantagens-item-contas {
         height: 150px;
 
-        margin-right: 37rem;
-        margin-left: 7rem;
+        margin-right: 40rem;
+        margin-left: 20rem;
 
         border-radius: 10px;
     }
@@ -484,7 +489,7 @@ header{
     .vantagens-item-titulo-contas {
         text-align: right;
 
-        padding-right: 9rem;
+        padding-right: 21rem;
     }
 
     .vantagens-item-conteudo-contas {
@@ -492,9 +497,10 @@ header{
         padding-right: 0;
     }
 
-    .vantagens-item-img-calendario {
+    .vantagens-item-img-contas {
         width: 270px;
-        margin-left: .5rem;
+        margin-left: 0rem;
+        margin-top: -20px;
     }
 }
 
@@ -546,6 +552,8 @@ fieldset {
     font-size: 1.2rem;
 
     margin-left: 3rem;
+
+    margin-bottom: 2rem;
 }
 
 #error {
@@ -555,6 +563,14 @@ fieldset {
 }
 
 @media screen and (min-width: 1000px) {
+
+    .fale-conosco-titulo {
+        font-size: 3.5rem;
+        font-weight: 500;
+
+        padding-bottom: 3rem;
+    }
+
     input, textarea {
        font-size: 1.5rem; 
     }
@@ -565,7 +581,7 @@ fieldset {
     }
 
     .fale-conosco-botao {
-        margin-left: 6.5rem;
+        margin-left: 6.5vw;
     }
 }
 
