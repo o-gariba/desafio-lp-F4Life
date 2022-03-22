@@ -335,7 +335,13 @@ footer {
 
 }
 
-.rodape-logo-img {
+.copyright {
+    color: var(--logo-cinza-texto);
+    text-align: center;
+
+    margin-top: 1rem;
+
+    font-size: .6rem;
 }
 
 /* Pegar estilo do formulario do curso JS NA WEB (pasta nomeada: js-na-web-validando-formularios) */
