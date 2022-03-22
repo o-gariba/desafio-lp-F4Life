@@ -272,8 +272,55 @@ header {
 
 /* FALE CONOSCO */
 
+.fale-conosco {
+    background-color: var(--logo-cinza-texto);
+    padding: 0 1rem;
+}
 
+.fale-conosco-titulo {
+    font-size: 2.5rem;
+    color: var(--logo-azul-escuro);
+    text-align: center;
 
+    padding-top: 2rem;
+}
+
+.fale-conosco-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+input, textarea {
+    border-radius: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+fieldset {
+    margin-bottom: 1rem;
+}
+
+.fale-conosco-botao {
+    background-color: var(--logo-verde);
+    color: var(--logo-azul-escuro);
+
+    border-radius: 10px;
+
+    padding: .2rem 2rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+
+    margin-left: 3rem;
+}
+
+/* REDES SOCIAIS */
 
 
 /* Pegar estilo do formulario do curso JS NA WEB (pasta nomeada: js-na-web-validando-formularios) */
