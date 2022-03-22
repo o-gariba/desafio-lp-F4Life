@@ -5,50 +5,71 @@
     --logo-branco: white;
 }
 
-html {
-    /* overflow-x: hidden; */
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
     /* estou usando roboto condensed? */
     /* font-family: 'Roboto Condensed', sans-serif; */
 }
 
-header {
-    color: var(--logo-cinza-texto);
-    background-color: var(--logo-azul-escuro);
-    width: 100%;
+/* CABEÇALHO */
 
-    /* box-sizing: border-box; */
+header{
+    background-color: var(--logo-azul-escuro);
+}
+
+.menu-cabecalho {
+    color: var(--logo-cinza-texto);
+    width: auto;
+
 
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row; 
 
-    padding: 1rem 0;
-
-    /* position: absolute; */
+    padding: 0 1rem;
 }
 
 .logo-cabecalho {
+    display: flex;
+    justify-content: center;
+    
     width: 100vw;
 }
 
 .menu-cabecalho-elmtos {
-    /* display: flex; */
-    /* flex-direction: row; */
     text-align: center;
 }
 
 .menu-cabecalho-elmto {
     display: inline-block;
 
-    margin: 1rem 1rem;
+    margin: .7rem .5rem;
 
     font-weight: 500;
     font-size: 1.2rem;
     /* Ver, no final, se vale a pena deixar em 1.5rem */
+}
+
+@media screen and (min-width: 1000px) {
+
+    .logo-cabecalho {
+        width: 300px;
+    
+        display: block;
+        padding: 0 1rem;
+    }
+
+    .menu-cabecalho {
+        position: absolute;
+        width: 80vw;
+        justify-content: flex-end;
+
+        margin: -4rem 0 0 10rem;
+    }
+
+    .menu-cabecalho-elmto {
+        font-weight: 800;
+    }
+
 }
 
 /* DESTAQUE */
@@ -74,6 +95,41 @@ header {
 .destaque-img {
     padding: 1.5rem 0;
     width: 95vw;
+}
+
+.destaque-img-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .destaque {
+        padding: 0;
+    }
+
+    .destaque-img{
+        display: none;
+    }
+
+    .destaque-img-desktop {
+        display: flex;
+        width: 100vw;
+    }
+
+    .destaque-titulo {
+        position: absolute;
+        margin-top: 4rem;
+        
+        padding: 1rem 0 1rem 4rem;
+
+        width: 500px;
+        font-weight: 600;
+        letter-spacing: 2px;
+
+        background-color: #ffffff;
+        opacity: .90;
+        border-radius: 0 10px 10px 0;
+    }
 }
 
 /* QUEM SOMOS */

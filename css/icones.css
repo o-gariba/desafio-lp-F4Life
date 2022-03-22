@@ -4,6 +4,8 @@
     margin: 5px 2px;  
     font-size: 30px;  
     width: 30px;  
+
+    border-radius: 10px;
 }  
 .fa-facebook {  
     background: #3B5998;  
@@ -17,8 +19,4 @@
 .fa-instagram {  
     background: #f48322;  
     color: white;  
-}  
-
-.fa:hover {  
-    opacity: 0.9;  
 }  
