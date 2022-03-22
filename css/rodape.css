@@ -1,0 +1,21 @@
+footer {
+    padding: 1rem 0;
+
+    background-color: var(--logo-azul-escuro);
+}
+
+.rodape-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.copyright {
+    color: var(--logo-cinza-texto);
+    text-align: center;
+
+    margin-top: 1rem;
+
+    font-size: .6rem;
+}

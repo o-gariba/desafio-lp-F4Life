@@ -1,0 +1,60 @@
+header{
+    background-color: var(--logo-azul-escuro);
+}
+
+.menu-cabecalho {
+    color: var(--logo-cinza-texto);
+    width: auto;
+
+
+    display: flex;
+    flex-direction: row; 
+
+    padding: 0 1rem;
+}
+
+.logo-cabecalho {
+    display: flex;
+    justify-content: center;
+    
+    width: 100vw;
+}
+
+.menu-cabecalho-elmtos {
+    text-align: center;
+}
+
+.menu-cabecalho-elmto {
+    display: inline-block;
+
+    margin: .7rem .5rem;
+
+    font-weight: 500;
+    font-size: 1.2rem;
+    /* Ver, no final, se vale a pena deixar em 1.5rem */
+}
+
+@media screen and (min-width: 1000px) {
+
+    .logo-cabecalho {
+        width: 300px;
+    
+        display: block;
+        padding: 0 1rem;
+    }
+
+    .menu-cabecalho {
+        position: absolute;
+        width: 80vw;
+        justify-content: flex-end;
+
+        margin: -4rem 0 0 10rem;
+    }
+
+    .menu-cabecalho-elmto {
+        font-weight: 800;
+
+        padding-left: 2rem;
+    }
+
+}

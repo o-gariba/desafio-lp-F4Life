@@ -1,0 +1,142 @@
+.moradias {
+    background-color: var(--logo-azul-escuro);
+    padding: 1rem .5rem;
+}
+
+.moradias-titulo{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+
+    color: var(--logo-cinza-texto);
+    word-spacing: 2rem;
+    line-height: 3rem;
+}
+
+.moradias-opcao {
+    border: 2px solid var(--logo-verde);
+
+    margin-bottom: 2.5rem;
+    display: flex;
+}
+
+.moradias-opcao-sozinhe{
+    color: white;
+
+    font-size: 2rem;
+    text-transform: uppercase;
+
+    display: block;
+    margin-left: .5rem;
+    margin-top: 2.3rem;
+}
+
+.moradias-hashtag-sozinhe {
+    color: var(--logo-cinza-texto);
+
+    display: block;
+    position: absolute;
+    margin-left: 8rem;
+    margin-top: 4.5rem;
+}
+
+.moradias-opcao-grupo{
+    color: white;
+
+    font-size: 1.8rem;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: left;
+
+    position: absolute;
+    margin-left: .2rem;
+    margin-top: 4rem;
+}
+
+.moradias-hashtag-grupo {
+    color: var(--logo-cinza-texto);
+
+    position: absolute;
+    margin-left: 1.8rem;
+    margin-top: 6.2rem;
+
+    font-size: .9rem;
+}
+
+.moradias-avatar-sozinhe {
+    display: block;
+    width: 90px;
+
+    padding: 1rem .5rem;
+}
+
+.moradias-avatar-grupo {
+    width: 110px;
+
+    padding: 1rem .5rem;
+    margin-left: 9.8rem;
+}
+
+@media screen and (min-width: 1000px) {
+   
+    .moradias {
+        padding: 1rem 5.5rem;
+    }
+
+    .moradias-titulo {
+        font-size: 3.5rem;
+        font-weight: 500;
+        word-spacing: 0;
+
+        padding-bottom: 5rem;
+    }
+
+    .moradias-opcao {
+        border: 3px solid var(--logo-verde);
+    }
+
+    .moradias-opcao-sozinhe {
+        padding-right: 2rem;
+        padding-top: 3rem;
+
+        font-size: 2.6rem;
+    }
+
+    .moradias-hashtag-sozinhe {
+        margin-left: 13rem;
+        margin-top: 8.2rem;
+    }
+
+    .moradias-avatar-sozinhe{
+        width: 160px;
+    }
+
+    .moradias-opcao-grupo {
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+
+        font-size: 2.6rem;
+    }
+
+    .moradias-opcoes {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-evenly;
+        /* width: 30%; */
+    }
+
+    .moradias-avatar-grupo {
+        width: 160px;
+        margin-left: 15rem;
+        padding: 1.2rem 1rem;
+    }
+
+    .moradias-hashtag-grupo {
+        padding-left: 3rem;
+        padding-top: 2.2rem;
+
+        font-size: 1rem;
+    }
+}
